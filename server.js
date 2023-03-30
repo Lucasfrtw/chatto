@@ -2,7 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const app = express();
 
-app.use(express.static('D:/Ciencia/Zoas/Site'));
+app.use(express.static('./'));
 
 const server = app.listen(3000, () => {
   console.log('Servidor WebSocket iniciado na porta 3000.');
