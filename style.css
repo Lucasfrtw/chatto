@@ -1,0 +1,14 @@
+#chatbox {
+	height: 200px;
+	width: 400px;
+	border: 1px solid black;
+	overflow-y: scroll;
+}
+
+input[type="text"] {
+	width: 300px;
+}
+
+button {
+	margin-top: 10px;
+}
